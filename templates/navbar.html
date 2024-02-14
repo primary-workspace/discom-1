@@ -20,7 +20,7 @@
       <!-- Logged In -->
     {% if request.user.is_authenticated %}
       <div class="header__user">
-        <a href="#">
+        <a href="{{request.user.username.upper}}">
           <div class="avatar avatar--medium active">
             <img src="{{request.user.avatar.url}}" />
           </div>

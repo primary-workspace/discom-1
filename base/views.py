@@ -202,3 +202,14 @@ def topicsPage(request):
 def activityPage(request):
     room_messages = Message.objects.all()
     return render(request, 'base/activity.html', {'room_messages': room_messages})
+
+@login_required
+def videocall(request):
+    return render(request, 'base/vc_call.html', {'name':request.user.username})
+
+@login_required
+def joinRoom(request):
+    if request.method == 'POST':
+        roomID = request.POST['roomID']
+        return redirect("/meeting?roomID=" + roomID)
+    return render(request, 'base/vc_joinroom.html')

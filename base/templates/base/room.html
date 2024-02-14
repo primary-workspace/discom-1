@@ -71,6 +71,10 @@
             corporis laboriosam deleniti molestias?
           </div> -->
           <span class="room__topics">{{room.topic}}</span>
+          {% if room.host == request.user %}
+          <a href="{% url 'meeting' %}" class="btn btn--main btn--pill">Create Video Room</a>
+          {% endif %}
+          <a href="{% url 'joinroom' %}" class="btn btn--main btn--pill">Join Video Room</a>
         </div>
 
         <div class="room__conversation">
