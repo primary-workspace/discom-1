@@ -54,6 +54,16 @@ python manage.py runserver
 
 #
 
+### How to use Video Call Functionality :
+
+--> To start a Video Room, we use :
+
+After logging on, create a room or choose option of start video chat in your existing room. After this you will be redirected to the Video Call Room. Here, you'll find a link having a room code in the end, do share it with whom you want to connect.
+
+--> To join a Video Room, we use :
+
+After login, find the room you want to connect, Click on join video room, after this enter the room code provided by the room owner and boom, you are in the video room.
+
 ### App Preview :
 
 <table width="100%"> 
@@ -74,3 +84,11 @@ python manage.py runserver
 <img src="https://github.com/prateek-workspace/discom/assets/110523559/23ae511a-99ba-48ca-90d3-74fa2958ddbd">  
 </td>
 </table>
+
+### Demo Logins :
+
+Email : tanjiro@gmail.com <br>
+Passkey : Adarsh@123 
+<br>
+
+
