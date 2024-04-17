@@ -79,10 +79,45 @@ After login, find the room you want to connect, Click on join video room, after 
 <td width="50%">
 <br>
 <p align="center">
-  Room Conversation Preview
+  Room Conversation Preview 1 (Create Video Room)
 </p>
 <img src="https://github.com/prateek-workspace/discom/assets/110523559/23ae511a-99ba-48ca-90d3-74fa2958ddbd">  
 </td>
+</tr>
+<tr>
+<td width="50%">      
+&nbsp; 
+<br>
+<p align="center">
+  Room Conversation Preview 2 (Join Video Room)
+</p>
+<img src="https://github.com/prateek-workspace/discom/assets/110523559/7fcdce3e-b372-43b9-821d-e33f234a9e84">
+</td> 
+<td width="50%">
+<br>
+<p align="center">
+  User Profile
+</p>
+<img src="https://github.com/prateek-workspace/discom/assets/110523559/23ae511a-99ba-48ca-90d3-74fa2958ddbd">  
+</td>
+</tr>
+<tr>
+<td width="50%">      
+&nbsp; 
+<br>
+<p align="center">
+  Video Room 1
+</p>
+<img src="https://github.com/prateek-workspace/discom/assets/110523559/7fcdce3e-b372-43b9-821d-e33f234a9e84">
+</td> 
+<td width="50%">
+<br>
+<p align="center">
+  Video Room 2
+</p>
+<img src="https://github.com/prateek-workspace/discom/assets/110523559/23ae511a-99ba-48ca-90d3-74fa2958ddbd">  
+</td>
+</tr>
 </table>
 
 ### Demo Logins :
