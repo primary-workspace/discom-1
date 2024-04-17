@@ -81,7 +81,7 @@ After login, find the room you want to connect, Click on join video room, after 
 <p align="center">
   Room Conversation Preview 1 (Create Video Room)
 </p>
-<img src="https://github.com/prateek-workspace/discom/assets/110523559/23ae511a-99ba-48ca-90d3-74fa2958ddbd">  
+<img src="https://github.com/prateek-workspace/discom/assets/110523559/40960b31-45d5-47da-9a18-c20829ebc5fc">  
 </td>
 </tr>
 <tr>
@@ -91,14 +91,14 @@ After login, find the room you want to connect, Click on join video room, after 
 <p align="center">
   Room Conversation Preview 2 (Join Video Room)
 </p>
-<img src="https://github.com/prateek-workspace/discom/assets/110523559/7fcdce3e-b372-43b9-821d-e33f234a9e84">
+<img src="https://github.com/prateek-workspace/discom/assets/110523559/e66eb4be-eb2d-4ec2-bc70-16687fc0c406">
 </td> 
 <td width="50%">
 <br>
 <p align="center">
   User Profile
 </p>
-<img src="https://github.com/prateek-workspace/discom/assets/110523559/23ae511a-99ba-48ca-90d3-74fa2958ddbd">  
+<img src="https://github.com/prateek-workspace/discom/assets/110523559/24e9c94a-be8e-4912-8640-352144116f48">  
 </td>
 </tr>
 <tr>
@@ -108,14 +108,14 @@ After login, find the room you want to connect, Click on join video room, after 
 <p align="center">
   Video Room 1
 </p>
-<img src="https://github.com/prateek-workspace/discom/assets/110523559/7fcdce3e-b372-43b9-821d-e33f234a9e84">
+<img src="https://github.com/prateek-workspace/discom/assets/110523559/2d6f0367-7144-4b3e-849a-8aac2a5519f3">
 </td> 
 <td width="50%">
 <br>
 <p align="center">
   Video Room 2
 </p>
-<img src="https://github.com/prateek-workspace/discom/assets/110523559/23ae511a-99ba-48ca-90d3-74fa2958ddbd">  
+<img src="https://github.com/prateek-workspace/discom/assets/110523559/fa12b792-4197-41bf-ba25-0755399718ef">  
 </td>
 </tr>
 </table>
@@ -123,6 +123,10 @@ After login, find the room you want to connect, Click on join video room, after 
 ### Demo Logins :
 
 Email : tanjiro@gmail.com <br>
+Passkey : Adarsh@123 
+<br>
+
+Email : titan@gmail.com <br>
 Passkey : Adarsh@123 
 <br>
 
