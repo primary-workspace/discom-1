@@ -106,14 +106,14 @@ After login, find the room you want to connect, Click on join video room, after 
 &nbsp; 
 <br>
 <p align="center">
-  Video Room 1
+  Video Room 1 (Demo)
 </p>
 <img src="https://github.com/prateek-workspace/discom/assets/110523559/2d6f0367-7144-4b3e-849a-8aac2a5519f3">
 </td> 
 <td width="50%">
 <br>
 <p align="center">
-  Video Room 2
+  Video Room 2 (Demo)
 </p>
 <img src="https://github.com/prateek-workspace/discom/assets/110523559/fa12b792-4197-41bf-ba25-0755399718ef">  
 </td>
