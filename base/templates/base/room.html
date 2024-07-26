@@ -70,12 +70,6 @@
             rerum consectetur, voluptatem repudiandae eum ea porro cupiditate provident nulla, deserunt, ab ipsum
             corporis laboriosam deleniti molestias?
           </div> -->
-          {% if room.host == request.user %}
-          <a href="{% url 'meeting' %}" class="btn btn--main btn--pill">Create Video Room</a>
-          {% endif %}
-          {% if room.host != request.user %}
-          <a href="{% url 'joinroom' %}" class="btn btn--main btn--pill">Join Video Room</a>
-          {% endif %}
           <span class="room__topics">{{room.topic}}</span>
         </div>
 
