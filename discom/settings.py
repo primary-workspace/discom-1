@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bf%u1b%5i-@qa&_d+82)56=$ep@tda4y%z#q5n*v#78cn-*q*t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -108,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# Custom User Model 
+# Custom User Model
 
 AUTH_USER_MODEL = 'base.User'
 
@@ -133,11 +133,12 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static'
 ]
 
+STATIC_ROOT = BASE_DIR/ 'static_collected'
+
 MEDIA_URL = '/images/'
 
 MEDIA_ROOT = BASE_DIR / 'static/images'
 
-# STATIC_ROOT = 
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
@@ -148,7 +149,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS_ALLOW_ALL_ORIGINS = True
 
-# if you want to allow certain domains to just access the site data using api, set domains below 
+# if you want to allow certain domains to just access the site data using api, set domains below
 
 CORS_ALLOWED_ORIGINS = [
     'https://example.com',
@@ -156,4 +157,4 @@ CORS_ALLOWED_ORIGINS = [
     'https://localhost:8000',
     'https://localhost:9000',
     'https://127.0.0.1:8000',
-] 
+]
