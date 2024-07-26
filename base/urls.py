@@ -25,4 +25,3 @@ urlpatterns = [
     path('meeting/', views.videocall, name="meeting"),
 
 ]
- 

@@ -67,16 +67,20 @@ def registerPage(request):
 def home(request):
     q = request.GET.get('q') if request.GET.get('q') != None else ''
 
+    # filtering rooms to show top 5
     rooms = Room.objects.filter(
         Q(topic__name__icontains=q) |
         Q(name__icontains=q) |
         Q(description__icontains=q)
     )
 
+    # filtering topics to show top 5
     topics = Topic.objects.all()[0:5]
-    room_count = rooms.count()
+    # old counter for rooms
+    # room_count = rooms.count()
+    room_count = Room.objects.count()
     room_messages = Message.objects.filter(
-        Q(room__topic__name__icontains=q))[0:3]
+        Q(room__topic__name__icontains=q))[0:5]
 
     context = {'rooms': rooms, 'topics': topics,
                'room_count': room_count, 'room_messages': room_messages}
@@ -203,6 +207,8 @@ def activityPage(request):
     room_messages = Message.objects.all()
     return render(request, 'base/activity.html', {'room_messages': room_messages})
 
+
+
 @login_required
 def videocall(request):
     return render(request, 'base/vc_call.html', {'name':request.user.username})
@@ -213,3 +219,4 @@ def joinRoom(request):
         roomID = request.POST['roomID']
         return redirect("/meeting?roomID=" + roomID)
     return render(request, 'base/vc_joinroom.html')
+

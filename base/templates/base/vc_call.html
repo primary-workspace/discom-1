@@ -32,12 +32,12 @@ window.onload = function () {
         // @param 5: Username
     const roomID = getUrlParams(window.location.href)['roomID'] || (Math.floor(Math.random() * 10000) + "");
     const userID = Math.floor(Math.random() * 10000) + "";
-    const userName = "{{name}}"
-    const appID = 1482648458;
-    const serverSecret = "f9b9da689065eda61e97258d8a9ba325";
+    const userName = "{{name.upper}}"
+    const appID = 1832573185;
+    const serverSecret = "6eb25adb44aa935abc8ced9987f27d74";
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID, userID, userName);
 
-    
+
         const zp = ZegoUIKitPrebuilt.create(kitToken);
         zp.joinRoom({
             container: document.querySelector("#root"),
@@ -48,7 +48,7 @@ window.onload = function () {
             scenario: {
                 mode: ZegoUIKitPrebuilt.VideoConference,
             },
-                
+
            	turnOnMicrophoneWhenJoining: true,
            	turnOnCameraWhenJoining: true,
            	showMyCameraToggleButton: true,
@@ -60,7 +60,7 @@ window.onload = function () {
            	maxUsers: 50,
            	layout: "Auto",
            	showLayoutButton: true,
-         
+
             });
 }
 </script>
