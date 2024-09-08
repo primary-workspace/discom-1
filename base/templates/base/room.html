@@ -71,10 +71,10 @@
             corporis laboriosam deleniti molestias?
           </div> -->
           {% if room.host == request.user %}
-          <a href="{% url 'meeting' %}" class="btn btn--main btn--pill">Create Video Room</a>
+          <a href="{% url 'meeting' %}" target = "_blank" class="btn btn--main btn--pill">Create Video Room</a>
           {% endif %}
           {% if room.host != request.user %}
-          <a href="{% url 'joinroom' %}" class="btn btn--main btn--pill">Join Video Room</a>
+          <a href="{% url 'joinroom' %}" target = "_blank" class="btn btn--main btn--pill">Join Video Room</a>
           {% endif %}
           <span class="room__topics">{{room.topic}}</span>
         </div>
